@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background: #f4f6f8;
+  color: #202832;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 18px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+.eyebrow {
+  color: #2f7d7e;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+h1 {
+  margin: 0 0 10px;
+}
+
+header p {
+  max-width: 640px;
+  line-height: 1.6;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 26px;
+}
+
+article {
+  background: white;
+  border: 1px solid #d9e1e8;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+article span {
+  display: block;
+  color: #657180;
+  margin-bottom: 8px;
+}
+
+article strong {
+  font-size: 28px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #d9e1e8;
+}
+
+th,
+td {
+  border-bottom: 1px solid #d9e1e8;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background: #eaf0f4;
+}
+
+.pass {
+  color: #176f41;
+  font-weight: 700;
+}
+
+.fail {
+  color: #a64b00;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  table {
+    font-size: 14px;
+  }
+}

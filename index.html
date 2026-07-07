@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Evaluation Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">Project 04</p>
+        <h1>Evaluation Dashboard</h1>
+        <p>
+          A simple page I made to display AI eval results. The data is small on
+          purpose so it is easy to understand.
+        </p>
+      </header>
+
+      <section class="cards">
+        <article>
+          <span>Total cases</span>
+          <strong id="total-cases">0</strong>
+        </article>
+        <article>
+          <span>Passed</span>
+          <strong id="passed-cases">0</strong>
+        </article>
+        <article>
+          <span>Pass rate</span>
+          <strong id="pass-rate">0%</strong>
+        </article>
+      </section>
+
+      <section>
+        <h2>Eval Cases</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Case</th>
+              <th>What it checks</th>
+              <th>Result</th>
+              <th>Score</th>
+            </tr>
+          </thead>
+          <tbody id="eval-table"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
