@@ -1,8 +1,8 @@
 # Evaluation Dashboard
 
-This is a small static dashboard for showing AI evaluation results.
+This is a static dashboard for showing AI evaluation results.
 
-I built it because AI projects should not only show answers. They should also show how the answers are checked.
+I built it because projects should not only show answers. They should also show how the answers are checked.
 
 ## What It Shows
 
@@ -12,8 +12,7 @@ I built it because AI projects should not only show answers. They should also sh
 - a table with each check
 - pass / needs work labels
 
-The data is hard-coded in JavaScript to keep the project simple.
-
+  
 ## Tech Used
 
 - HTML
