@@ -4,6 +4,8 @@ This is a static dashboard for showing AI evaluation results.
 
 I built it because projects should not only show answers. They should also show how the answers are checked.
 
+![Evaluation Dashboard screenshot](screenshot.png)
+
 ## What It Shows
 
 - total eval cases
